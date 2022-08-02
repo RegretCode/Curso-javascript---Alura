@@ -1,0 +1,43 @@
+<meta charset="UTF-8">
+
+	<script>
+	
+	function pulaLinha() {
+	
+			document.write("<br>");
+	
+	}
+	
+	function mostra(imprimeNaTela) {
+	
+			document.write(imprimeNaTela);
+			// posso mandar um pulaLinha(); aqui dentro da funcao e sempre q for imprimir algo na tela vai pular uma linha automaticamente
+			
+			
+	}
+		var ano = 2020;
+	
+		mostra("Marcelo tem " + (ano - 1982) + " anos");
+		//document.write("Marcelo tem " + (ano - 1982) + " anos");
+		//ou documnet.write("<br>");
+		pulaLinha();
+		
+		mostra("Flavio tem " + (ano - 1984) + " anos");
+		//document.write("Flavio tem " + (ano - 1984) + " anos");
+		//ou documnet.write("<br>");
+		pulaLinha();
+		
+		mostra("Ricardo tem " + (ano - 1999) + " anos");
+		//document.write("Ricardo tem " + (ano - 1999) + " anos");
+		//ou documnet.write("<br>");
+		pulaLinha();
+		
+		
+		// ano = 2021; a partir daqui, todas as idades seriam contadas a partir de 2021, pois a variavel ano recebeu uma outra data
+		
+		var idadeM = 38; idadeF = 36; idadeR = 21;
+		var media = (idadeM + idadeF + idadeR)/3;
+		
+		document.write("A media das idades e' " + Math.round(media));
+		
+	</script>
